@@ -1,0 +1,22 @@
+<div class='p-4 w-50'>
+  <div class="form-group">
+    <label for="country-input">Select the country</label>
+    <input id="country-input"
+           type="text"
+           class="form-control"
+           [ngbTypeahead]="searchCountry"
+           [inputFormatter]='getName'
+           [resultFormatter]='getName'
+           [editable]='false' />
+  </div>
+  <div class="form-group">
+    <label for="city-input">Select the city</label>
+    <input id="city-input"
+           type="text"
+           class="form-control"
+           [ngbTypeahead]="searchCity"
+           [inputFormatter]='getName'
+           [resultFormatter]='getName'
+           [editable]='false' />
+  </div>
+</div>

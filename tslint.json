@@ -12,13 +12,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "ng-testing",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "ng-testing",
       "kebab-case"
     ],
     "import-blacklist": [

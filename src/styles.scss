@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+
+// styles in src/style directory are applied to the whole app
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+.app-container {
+  min-height: 100vh;
+}
+
+header.navbar {
+  background: linear-gradient(135deg, #0143a3, #0273d4);
+}
+
+.footer {
+  padding: 1rem 0;
+  font-size: 0.85rem;
+  text-align: left;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    font-weight: 500;
+    color: #000;
+    text-decoration: underline;
+  }
+}

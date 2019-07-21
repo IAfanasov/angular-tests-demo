@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
+
+import { RouteSegments } from './route-segments.enum';
 
 @Component({
-  selector: 'app-root',
+  selector: 'ng-testing-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
-  title = 'angular-tests-demo';
+  RouteSegments = RouteSegments;
 }
