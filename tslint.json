@@ -53,10 +53,8 @@
       "trace"
     ],
     "no-empty": false,
-    "no-inferrable-types": [
-      true,
-      "ignore-params"
-    ],
+    "no-inferrable-types": false,
+    "no-angle-bracket-type-assertion": false,
     "no-non-null-assertion": true,
     "no-redundant-jsdoc": true,
     "no-switch-case-fall-through": true,

@@ -6,12 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AddressComponent } from './forms/address/address.component';
+import { SimulateEventsComponent } from './simulate-events/simulate-events.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AddressComponent
+    AddressComponent,
+    SimulateEventsComponent
   ],
   imports: [
     BrowserModule,
